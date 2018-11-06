@@ -1,0 +1,4 @@
+@mixin make-col($size, $columns: 12) {
+  flex: 0 0 percentage($size / $columns);
+  max-width: percentage($size / $columns);
+}
